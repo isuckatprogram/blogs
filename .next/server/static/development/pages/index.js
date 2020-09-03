@@ -104,18 +104,37 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/runner/FortunateTallCodec/pages/index.js";
+var _jsxFileName = "/home/runner/blogs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function HomePage() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, "Welcome to Next.js!");
+class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return __jsx("div", {
+      style: {
+        textAlign: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, __jsx("p", {
+      style: {
+        opacity: '0.5'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, "no blogs... yet"));
+  }
+
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (HomePage);
@@ -129,7 +148,7 @@ function HomePage() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/FortunateTallCodec/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/runner/blogs/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

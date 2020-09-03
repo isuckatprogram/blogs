@@ -1,0 +1,1 @@
+{"ast":null,"code":"class HomePage extends React.Component {}","map":{"version":3,"sources":["/home/runner/blogs/pages/index.js"],"names":["HomePage","React","Component"],"mappings":"AAAA,MAAMA,QAAN,SAAuBC,KAAK,CAACC,SAA7B,CAAsC","sourcesContent":["class HomePage extends React.Component{\n  \n}"]},"metadata":{},"sourceType":"script"}
